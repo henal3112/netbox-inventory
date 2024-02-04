@@ -1,0 +1,13 @@
+---
+plugin: netbox.netbox.nb_inventory
+api_endpoint: http://0.0.0.0:8000
+token: 'cf8fab72de5b8616ab2b83808757fec3dcd04896'
+validate_certs: False
+config_context: False
+fetch_all: False
+group_by:
+  - platforms
+compose:
+ ansible_network_os: platform.slug
+device_query_filters:
+  - site: germany
