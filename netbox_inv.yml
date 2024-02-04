@@ -1,7 +1,7 @@
 ---
 plugin: netbox.netbox.nb_inventory
-api_endpoint: http://10.75.0.209:8000
-token: '0123456789abcdef0123456789abcdef01234567'
+api_endpoint: http://0.0.0.0:8000
+token: 'cf8fab72de5b8616ab2b83808757fec3dcd04896'
 validate_certs: no
 config_context: True
 fetch_all: True
